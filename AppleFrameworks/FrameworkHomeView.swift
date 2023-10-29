@@ -12,10 +12,15 @@ struct FrameworkHomeView: View {
                              GridItem(.flexible()),
                              GridItem(.flexible())]
     var body: some View {
-        LazyVGrid(columns: columns) {
-            ForEach(MockData.frameworks, id: \.id) { framework in
-                FrameworkCellView(framework: framework)
+        NavigationView {
+            ScrollView {
+                LazyVGrid(columns: columns) {
+                    ForEach(MockData.frameworks, id: \.id) { framework in
+                        FrameworkCellView(framework: framework)
+                    }
+                }
             }
+            .navigationTitle("🍎 Frameworks")
         }
     }
 }
