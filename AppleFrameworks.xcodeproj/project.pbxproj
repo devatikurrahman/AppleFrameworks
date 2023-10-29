@@ -14,6 +14,7 @@
 		6057B7932AEEAF2B00D78C76 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6057B7922AEEAF2B00D78C76 /* Framework.swift */; };
 		6057B7972AEEDE4F00D78C76 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6057B7962AEEDE4F00D78C76 /* FrameworkDetailView.swift */; };
 		6057B7992AEEE0FF00D78C76 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6057B7982AEEE0FF00D78C76 /* AFButton.swift */; };
+		60D909FB2AEEEED500B04F85 /* FrameworkHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D909FA2AEEEED500B04F85 /* FrameworkHomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		6057B7922AEEAF2B00D78C76 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		6057B7962AEEDE4F00D78C76 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		6057B7982AEEE0FF00D78C76 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
+		60D909FA2AEEEED500B04F85 /* FrameworkHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkHomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				6057B78F2AEEAE4B00D78C76 /* Model */,
 				6057B77E2AEEAA0100D78C76 /* AppleFrameworksApp.swift */,
 				6057B7802AEEAA0100D78C76 /* FrameworkHomeView.swift */,
+				60D909FA2AEEEED500B04F85 /* FrameworkHomeViewModel.swift */,
 				6057B7962AEEDE4F00D78C76 /* FrameworkDetailView.swift */,
 				6057B7982AEEE0FF00D78C76 /* AFButton.swift */,
 				6057B7822AEEAA0300D78C76 /* Assets.xcassets */,
@@ -174,6 +177,7 @@
 				6057B7812AEEAA0100D78C76 /* FrameworkHomeView.swift in Sources */,
 				6057B7932AEEAF2B00D78C76 /* Framework.swift in Sources */,
 				6057B7992AEEE0FF00D78C76 /* AFButton.swift in Sources */,
+				60D909FB2AEEEED500B04F85 /* FrameworkHomeViewModel.swift in Sources */,
 				6057B77F2AEEAA0100D78C76 /* AppleFrameworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
