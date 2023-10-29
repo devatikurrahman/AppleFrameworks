@@ -43,5 +43,6 @@ struct FrameworkCellView: View {
                 .scaledToFit()
                 .minimumScaleFactor(0.6)
         }
+        .padding()
     }
 }
