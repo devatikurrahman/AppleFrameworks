@@ -13,12 +13,9 @@ struct FrameworkHomeView: View {
                              GridItem(.flexible())]
     var body: some View {
         LazyVGrid(columns: columns) {
-            FrameworkCellView(name: "App Clips", imageName: "app-clip")
-            FrameworkCellView(name: "App Clips", imageName: "app-clip")
-            FrameworkCellView(name: "App Clips", imageName: "app-clip")
-            FrameworkCellView(name: "App Clips", imageName: "app-clip")
-            FrameworkCellView(name: "App Clips", imageName: "app-clip")
-            FrameworkCellView(name: "App Clips", imageName: "app-clip")
+            ForEach(MockData.frameworks, id: \.self) { framework in
+                FrameworkCellView(name: framework.name, imageName: framework.imageName)
+            }
         }
     }
 }
