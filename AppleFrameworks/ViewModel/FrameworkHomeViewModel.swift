@@ -10,11 +10,12 @@ import SwiftUI
 
 final class FrameworkHomeViewModel: ObservableObject {
 
-    var selectedFramework: Framework? {
+    /*var selectedFramework: Framework? {
         didSet { isShowingDetailView = true }
     }
     
     @Published var isShowingDetailView = false
+    */
     
     let columns: [GridItem] = [GridItem(.flexible()),
                              GridItem(.flexible()),
